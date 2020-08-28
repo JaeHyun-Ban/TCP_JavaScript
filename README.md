@@ -1,2 +1,2 @@
 # study_JavaScript
-## http://tcpschool.com/html/intro
+## http://tcpschool.com/javascript/intro
