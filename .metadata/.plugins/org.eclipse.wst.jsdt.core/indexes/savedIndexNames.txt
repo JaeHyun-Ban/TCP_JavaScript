@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\course\eclipse-jee-2020-06-R-win32-x86_64\workspace\JavaScript\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1442720800.index
+1049923536.index
+719460145.index
+4262633772.index
+94648531.index
