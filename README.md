@@ -1,2 +1,2 @@
-# TCPSCHOOL 자바스크립트
+# TCPSCHOOL 
 http://tcpschool.com/javascript/intro
