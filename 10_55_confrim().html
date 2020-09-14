@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Bom Dialog Box</title>
+  </head>
+  <body>
+    <h1>confirm() 메서드</h1>
+    <!--클릭시 confirmDialogBox의 정보를 받는 버튼 생성 -->
+    <button onclick="confirmDialogBox()">confirm 대화 상자</button>
+    <!--결과문을 text형태 문단으로 출력-->
+    <p id="text"></p>
+
+    <script>
+      //함수 생성
+      function confirmDialogBox() {
+        var str; //변수 str
+
+        if (confirm("확인이나 취소를 눌러주세요!") == true) {
+          str = "당신은 확인을 눌렀습니다!";
+        } else {
+          str = "당신은 취소를 눌렀습니다!";
+        }
+        //https://ofcourse.kr/js-course/innerHTML-%EC%86%8D%EC%84%B1
+        document.getElementById("text").innerHTML = str;
+      }
+    </script>
+  </body>
+</html>
