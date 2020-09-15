@@ -1,5 +1,5 @@
 # TCPSCHOOL
 
-## 자바스크립트
+## TCP_JavaScript
 
-http://tcpschool.com/javascript/intro
+- http://tcpschool.com/javascript/intro
