@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Data Type</title>
+  </head>
+  <body>
+    <h1>null과 undefined</h1>
+    <p id="result"></p>
+    <script>
+      var num; //초기화 하지 않아서 undefined값을 반환
+      var str = null; //object 타입의 null값
+
+      //정의되지 않은 변수에 접근하면 undefined값을 반환한다.
+      document.getElementById("result").innerHTML =
+        typeof num + "<br>" + typeof str + "<br>" + typeof secondNum;
+      //1. 초기화되지않음
+      //2. null값 - object타입
+      //3. 아예 생성안함 -> 타입 X
+    </script>
+  </body>
+</html>

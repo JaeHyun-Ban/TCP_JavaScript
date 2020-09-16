@@ -12,7 +12,7 @@ var fourthNum = 10e-6; //0.00001
 ///////////////////////////////
 //2. 문자열(string)
 var firstStr = "이것도 문자열입니다.";
-var secondStr = '이것도 문자열""입니다.';
+var secondStr = "이것도 문자열입니다.";
 var thirdStr = "나의 이름은 '홍길동'이야.";
 var fourthStr = '나의 이름은 "홍길동"이야.';
 //> 문자열을 표현하는데 큰따움표와 작은 따움표는 상관없다
