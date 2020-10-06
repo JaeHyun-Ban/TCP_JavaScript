@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ko">
   <head>
@@ -18,3 +19,28 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Type Conversion</title>
+  </head>
+
+  <body>
+    <h1>같은 변수에 다른 타입의 값 대입</h1>
+    <p id="result"></p>
+    <script>
+      var num = 20; //변수의 선언과 함께 초기화, int형
+      document.getElementById("result").innerHTML = num + "<br>";
+      num = "이십"; //문자열 대입
+      document.getElementById("result").innerHTML += num + "<br>";
+      var num; //한 변수를 여러번 초기화할 수는 있으나, 재선언은 할 수 없다.
+      document.getElementById("result").innerHTML += num; //num의 마지막은 "이십"인 상태이다.
+    </script>
+  </body>
+
+</html>
+>>>>>>> be27a088e8ca5c3a2ed025709f836c4ca8e8b5d7
