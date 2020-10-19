@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Operators</title>
+  </head>
+  <body>
+    <h1>비교 연산자</h1>
+    <script>
+      var x = 3,
+        y = 5;
+      var a = "abc",
+        b = "bcd";
+      document.write((x > y) + "<br>"); //y값이 x값보다 크므로 false
+      document.write((a <= b) + "<br>"); //알파벳 순서상 `a`가 `b`보다 먼저니까 `b`가 더 큼
+      document.write(x < a); //x값은 숫자고, a값은 문자이니까 비교할 수 없다
+    </script>
+  </body>
+</html>
